@@ -12,9 +12,9 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class DashboardPage {
 
-    private final SelenideElement heading = $(byText("Ваши карты"));
-    private final String balanceStart = ", баланс: ";
-    private final String balanceFinish = " р.";
+    private final SelenideElement heading = $(byText("Р’Р°С€Рё РєР°СЂС‚С‹"));
+    private final String balanceStart = ", Р±Р°Р»Р°РЅСЃ: ";
+    private final String balanceFinish = " СЂ.";
     private final ElementsCollection cards = $$(".list__item div");
 
     public DashboardPage() {
